@@ -22,7 +22,7 @@ export const PROJECTS = [
     cat: "Utility",
     desc: "Short description of what it does and the problem it solves.",
     tech: ["JavaScript", "Vite"],
-    image: "public/images/FinCalc.png",
+    image: "images/FinCalc.png",
     live: "https://ayushmishra555.github.io/FinCalc-V2/",
     code: "https://github.com/Ayushmishra555/FinCalc-V2" },
 
@@ -30,7 +30,7 @@ export const PROJECTS = [
     cat: "Game",
     desc: "NinjaShaft is a game.",
     tech: ["React", "Node.js"],
-    image: "public/images/Ninja-Shaft.png",
+    image: "images/Ninja-Shaft.png",
     live: "https://ayushmishra555.github.io/NinjaShaft/",
     code: "https://github.com/Ayushmishra555/NinjaShaft" },
 
@@ -39,7 +39,7 @@ export const PROJECTS = [
     cat: "Game",
     desc: "Short description of what it does and the problem it solves.",
     tech: ["Flutter", "Firebase"],
-    image: "public/images/Plumb-Line.png",
+    image: "images/Plumb-Line.png",
     live: "https://ayushmishra555.github.io/Plumb-Line/",
     code: "https://github.com/Ayushmishra555/Plumb-Line" },
 
@@ -47,7 +47,7 @@ export const PROJECTS = [
     cat: "Game",
     desc: "Short description of what it does and the problem it solves.",
     tech: ["Python", "CLI"],
-    image: "public/images/Snankes-Ladder.png",
+    image: "images/Snankes-Ladder.png",
     live: "https://ayushmishra555.github.io/snakes-and-ladders-v3/",
     code: "https://github.com/Ayushmishra555/snakes-and-ladders-v3" },
 
@@ -55,7 +55,7 @@ export const PROJECTS = [
     cat: "Web",
     desc: "Short description of what it does and the problem it solves.",
     tech: ["JavaScript", "Vite"],
-    image: "public/images/Little-lemon.png",
+    image: "images/Little-lemon.png",
     live: "https://ayushmishra555.github.io/Little-lemon/",
     code: "https://github.com/Ayushmishra555/Little-lemon" }
 ];
