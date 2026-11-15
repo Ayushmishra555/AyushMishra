@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="Personal portfolio" />
+  <title>Ayush Mishra – Software Developer</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <svg class="bg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f9f2e6"/><stop offset="1" stop-color="#f0e2cf"/></linearGradient>
+      <path id="leaf" d="M0,0 C12,-14 38,-14 52,0 C38,14 12,14 0,0Z"/>
+      <g id="plant"><path d="M0 0C-8-70 8-130 0-200" fill="none" stroke="#7f9a6b" stroke-width="4" stroke-linecap="round"/>
+        <use href="#leaf" transform="translate(-1,-30) rotate(-155) scale(1.1)"/><use href="#leaf" transform="translate(0,-60) rotate(-25) scale(1.1)"/>
+        <use href="#leaf" transform="translate(1,-95) rotate(-150)"/><use href="#leaf" transform="translate(1,-125) rotate(-30)"/>
+        <use href="#leaf" transform="translate(0,-160) rotate(-145) scale(.8)"/><use href="#leaf" transform="translate(0,-185) rotate(-35) scale(.8)"/>
+        <use href="#leaf" transform="translate(0,-198) rotate(-90) scale(.7)"/></g>
+      <g id="plantset"><use href="#plant" transform="translate(70,260) scale(1.15)" fill="#a3b58e"/><use href="#plant" transform="translate(150,260) scale(.8)" fill="#d9a58a"/><use href="#plant" transform="translate(30,260) scale(.6)" fill="#c9a9a0"/>
+        <circle cx="200" cy="215" r="6" fill="#e3c98f"/><circle cx="215" cy="238" r="4" fill="#d9a58a"/></g>
+    </defs>
+    <rect width="1440" height="900" fill="url(#sky)"/>
+    <circle cx="1000" cy="170" r="130" fill="#f3d6bf" opacity=".5"/><circle cx="1000" cy="170" r="84" fill="#eebf9f" opacity=".75"/>
+    <g class="cloud c1" fill="#fffaf1" opacity=".9"><ellipse cx="300" cy="140" rx="95" ry="26"/><ellipse cx="360" cy="118" rx="60" ry="28"/><ellipse cx="245" cy="124" rx="50" ry="22"/></g>
+    <g class="cloud c2" fill="#fffaf1" opacity=".8"><ellipse cx="740" cy="260" rx="80" ry="22"/><ellipse cx="790" cy="242" rx="50" ry="24"/></g>
+    <g class="cloud c3" fill="#fffaf1" opacity=".75"><ellipse cx="1240" cy="320" rx="85" ry="22"/><ellipse cx="1190" cy="304" rx="46" ry="22"/></g>
+    <path d="M0 640C200 570 380 600 560 640S960 680 1200 610 1400 600 1440 620V900H0Z" fill="#dfe5cf"/>
+    <path d="M640 770C860 690 1100 730 1440 680V900H640Z" fill="#e8d0b4" opacity=".8"/>
+    <path d="M0 720C240 650 440 700 700 730S1150 690 1440 720V900H0Z" fill="#c9d3b4"/>
+    <path d="M0 810C300 760 520 815 800 825S1250 780 1440 810V900H0Z" fill="#b4c19c"/>
+    <!-- <g class="drift" fill="#d9a58a"><use href="#leaf" transform="translate(520,420) rotate(40)" fill="#a3b58e"/><use href="#leaf" transform="translate(900,500) rotate(-30) scale(.8)"/><use href="#leaf" transform="translate(300,560) rotate(120) scale(.7)" fill="#e3c98f"/><circle cx="680" cy="380" r="5" opacity=".6"/><circle cx="1100" cy="440" r="4" opacity=".6"/></g> -->
+  </svg>
+  <svg class="plants pl" viewBox="0 0 260 260" aria-hidden="true"><use href="#plantset"/></svg>
+  <svg class="plants pr" viewBox="0 0 260 260" aria-hidden="true"><use href="#plantset"/></svg>
+
+  <header class="nav" id="nav">
+    <a class="brand" href="#top" id="brand"></a>
+    <nav class="links">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text reveal">
+        <span class="pill"><i></i><span id="status"></span></span>
+        <h1>Hi, I’m <span class="grad" id="name"></span><br /><span id="typed"></span><span class="caret"></span></h1>
+        <p id="tagline"></p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">Projects</a>
+          <a class="btn ghost" href="#contact">Contact</a>
+        </div>
+        <div class="stats" id="stats"></div>
+      </div>
+      <div class="hero-art reveal" aria-hidden="true">
+        <svg viewBox="0 0 400 340" class="art">
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9a58a"/><stop offset="1" stop-color="#a3b58e"/></linearGradient>
+            <linearGradient id="g2" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#e3c98f"/><stop offset="1" stop-color="#d9a58a"/></linearGradient>
+          </defs>
+          <circle cx="200" cy="170" r="150" fill="none" stroke="#b8704f" stroke-opacity=".3" stroke-dasharray="4 8"/>
+          <circle cx="200" cy="170" r="105" fill="none" stroke="#7f9a6b" stroke-opacity=".35"/>
+          <g class="float"><rect x="70" y="80" width="260" height="170" rx="16" fill="#fffaf2" stroke="url(#g1)" stroke-width="2"/>
+            <circle cx="92" cy="102" r="5" fill="#d98c7a"/><circle cx="110" cy="102" r="5" fill="#e3c07a"/><circle cx="128" cy="102" r="5" fill="#8fa381"/>
+            <rect x="92" y="130" width="90" height="8" rx="4" fill="#b8704f"/><rect x="92" y="150" width="150" height="8" rx="4" fill="#8fa381"/>
+            <rect x="112" y="170" width="120" height="8" rx="4" fill="#d9a58a"/><rect x="112" y="190" width="70" height="8" rx="4" fill="#cdbfae"/>
+            <rect x="92" y="210" width="110" height="8" rx="4" fill="#b2c09a"/></g>
+          <g class="float2"><rect x="250" y="40" width="90" height="54" rx="12" fill="url(#g2)"/><text x="295" y="74" text-anchor="middle" font-family="monospace" font-size="20" fill="#4a3f35">&lt;/&gt;</text></g>
+          <g class="float3"><circle cx="70" cy="262" r="28" fill="url(#g1)"/><text x="70" y="270" text-anchor="middle" font-family="monospace" font-size="22" fill="#4a3f35">{ }</text></g>
+        </svg>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2 class="title reveal"><small>01</small> About me</h2>
+      <div class="about">
+        <div class="glass reveal" id="bio"></div>
+        <div class="glass reveal"><h3>Tech stack</h3><div id="skills" class="chips"></div></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 class="title reveal"><small>02</small> Projects</h2>
+      <div class="filters reveal" id="filters"></div>
+      <div class="cards" id="cards"></div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="glass contact reveal">
+        <h2>Let’s build something together</h2>
+        <p>Have an idea or want to say hi? My inbox is always open.</p>
+        <div class="cta" id="socials"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="foot" id="foot"></footer>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
