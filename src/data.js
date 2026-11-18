@@ -1,19 +1,19 @@
 // ===== EDIT YOUR CONTENT HERE =====
 export const ME = {
   name: "AYUSH MISHRA",
-  roles: ["Full-stack Developer", "UI Enthusiast", "Problem Solver"],
+  roles: ["Developer", "UI Enthusiast", "Problem Solver"],
   status: "Open to opportunities",
-  tagline: "I design and build fast, modern web and mobile apps with clean code and thoughtful UX.",
+  tagline: "I design and build fast, modern web, mobile apps and games with clean code and thoughtful UX.",
   bio: [
-    "Hi, I’m AYUSH MISHRA, a developer from India. Write about where you’re from, what you studied and what drives you.",
-    "Add a second paragraph about your interests, what you’re learning right now, and the kind of work you want to do."
+    "Hi, I’m AYUSH MISHRA, a technology enthusiast and developer, passionate about building meaningful things that create real-world impact. From developing web applications and experimenting with emerging technologies to exploring new business ideas, I believe in learning by building, thinking beyond boundaries, and turning ideas into reality.",
+    " I'm driven by curiosity, ambitious thinking, and a constant desire to improve. I see every challenge as an opportunity to learn, create, and grow."
   ],
-  skills: ["JavaScript", "TypeScript", "React", "Node.js", "Python", "Flutter", "SQL", "Git", "Figma"],
-  stats: [["10+", "Projects"], ["3+", "Years learning"], ["5", "Technologies"]],
+  skills: ["JavaScript", "TypeScript", "React", "Node.js", "Python", "SQL", "Git", "Figma"],
+  stats: [ ["3+", "Years learning"], ["5+", "Technologies"]],
   socials: [
     ["GitHub", "https://github.com/Ayushmishra555"],
-    ["LinkedIn", "https://linkedin.com/"],
-    ["Email ", "mailto:you@example.com"]
+    ["LinkedIn", "https://www.linkedin.com/in/ayush-mishra-33778a23a/"],
+    // ["Email ", "mailto:you@example.com"]
   ]
 };
 
